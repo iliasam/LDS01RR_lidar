@@ -1,0 +1,13 @@
+<package>
+  <description brief="lds01rr_lidar">
+     lds01rr_lidar
+  </description>
+  <author>iliasam</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <rosdep name="boost" />
+</package>
+
+

@@ -208,7 +208,17 @@ namespace LidarScanningTest1
         {
             int pointer_angle = radarPlotComponent1.GetPointerAngle();//deg
 
-            int pos = CurentPointsCnt * pointer_angle / 360;
+            //int pos = CurentPointsCnt * pointer_angle / 360;
+            int pos = 0;
+
+            for (int i = 0; i < ScanPoints.Length; i++)
+            {
+                if (Math.Abs(ScanPoints[i].RealAngleDeg - pointer_angle) < 0.1)
+                {
+                    pos = i;
+                    break;
+                }
+            }
 
             int rawValue = ScanPoints[pos].RawValue;
             double dist = ScanPoints[pos].DistM;

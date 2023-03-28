@@ -17,6 +17,8 @@ Distance 8.4m, gray wall - Std. Dev.: +-2.1cm, Max-Min=8cm, this was maximum sta
   
 Distance 4.4m, dark wall - Std. Dev.: +-1.2cm, Max-Min=4cm, this was maximum stable distance  
   
-Distance 11.56m, white wall - Std. Dev.: +-2.0cm, Max-Min=7cm, LDS was inclinated ~20 deg.  
-It looks like that max distance for this Lidar is limeted by 12m in its firmware.  
+Distance 11.56m, white wall - Std. Dev.: +-2.0cm, Max-Min=7cm, LDS has inclination angle ~20 deg.  
+It looks like that max distance for this Lidar is limited by 12m in its firmware.  
+  
+Notice that data protocols (between rotating head and integrated STM32F4466 MCU) and VCP protocols are different.  
 

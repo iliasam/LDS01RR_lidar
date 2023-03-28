@@ -86,7 +86,7 @@ namespace LidarScanningTest1
             }
 
             
-            //Scan points
+            //Draw Scan points
             for (i = 0; i < pointsCnt; i++)
             {
                 if ((points[i].NotVisible == false) && (points[i].Wrong == false))

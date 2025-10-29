@@ -1,6 +1,7 @@
 # LDS01RR_lidar
 Some info and soft for LDS01RR Lidar (Roborock)  
 LDS01RR_WinScan folder - ("LDS Scanning Test") - windows utility for drawing Lidar data.  
+UPD from 20/2025 - "LDS01RR_WinScan" was replaced by this project: https://github.com/iliasam/WinLIDARViewer  !
 lds01rr_lidar folder - ROS node sources. Just run "make" command to build ROS node.  
   
 See more info about this Lidar here: https://youyeetoo.com/blog/lds01rr-lidar-stdps01rmain-108  
@@ -20,5 +21,5 @@ Distance 4.4m, dark wall - Std. Dev.: +-1.2cm, Max-Min=4cm, this was maximum sta
 Distance 11.56m, white wall - Std. Dev.: +-2.0cm, Max-Min=7cm, LDS has inclination angle ~20 deg.  
 It looks like that max distance for this Lidar is limited by 12m in its firmware.  
   
-Notice that data protocols (between rotating head and integrated STM32F446 MCU) and VCP protocols are different.  
+Notice that data protocols (between rotating head and integrated STM32F446 MCU) and USB VCP protocols are different.  
 

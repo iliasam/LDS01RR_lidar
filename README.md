@@ -25,3 +25,33 @@ It looks like that max distance for this Lidar is limited by 12m in its firmware
   
 Notice that data protocols (between rotating head and integrated STM32F446 MCU) and USB VCP protocols are different.  
 
+# Disassembling
+![](https://github.com/iliasam/LDS01RR_lidar/blob/main/Pictures/Disassembling/lds_photo%20(1).jpg)
+Lidar with a development board installed. This board is generating power for a coil, controlling speed of the motor, receiving light from the LED at the head. Received data is converted by MCU and transfered to USB.  
+  
+ ![](https://github.com/iliasam/LDS01RR_lidar/blob/main/Pictures/Disassembling/lds_photo%20(2).jpg)
+Photo of the PCB.  
+  
+![](https://github.com/iliasam/LDS01RR_lidar/blob/main/Pictures/Disassembling/lds_photo%20(3).jpg)
+Lidar head with a cover removed.  
+
+![](https://github.com/iliasam/LDS01RR_lidar/blob/main/Pictures/Disassembling/lds_photo%20(4).jpg)
+Optics of the Lidar.    
+
+![](https://github.com/iliasam/LDS01RR_lidar/blob/main/Pictures/Disassembling/lds_photo%20(10).jpg)
+APD can be seen through the lens.  
+
+![](https://github.com/iliasam/LDS01RR_lidar/blob/main/Pictures/Disassembling/lds_photo%20(6).jpg)
+Laser diode is installed at the small PCB.    
+  
+![](https://github.com/iliasam/LDS01RR_lidar/blob/main/Pictures/Disassembling/lds_photo%20(5).jpg)
+Main PCB of the head.  
+
+![](https://github.com/iliasam/LDS01RR_lidar/blob/main/Pictures/Disassembling/lds_photo%20(7).jpg)
+Closeup view of the PCB. MCU is GD32F330K8, TDC is TDC7201, receiving channel comparatos is TLV3502. APD amplifier is closed with a shield.  
+
+![](https://github.com/iliasam/LDS01RR_lidar/blob/main/Pictures/Disassembling/lds_photo%20(8).JPG)
+Another closeup view of the PCB. TIA is OPA857.
+
+![](https://github.com/iliasam/LDS01RR_lidar/blob/main/Pictures/Disassembling/lds_photo%20(9).jpg)
+PCB at the bottom of the head. Transformer coil for powering head is visible at the center.

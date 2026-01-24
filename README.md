@@ -2,7 +2,7 @@
 Some info and soft for LDS01RR Lidar (Roborock) with a Cullinan dev. board - such Lidar has a USB connector.  
   
 LDS01RR_WinScan folder - ("LDS Scanning Test") - windows utility for drawing Lidar data.  
-**UPD from 20/2025** - "LDS01RR_WinScan" was replaced by this project: https://github.com/iliasam/WinLIDARViewer  !  
+**UPD from 12/2025** - "LDS01RR_WinScan" was replaced by this project: https://github.com/iliasam/WinLIDARViewer  !  
   
 lds01rr_lidar folder - ROS node sources. Just run "make" command to build ROS node.  
   
